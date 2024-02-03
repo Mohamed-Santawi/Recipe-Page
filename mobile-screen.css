@@ -1,0 +1,89 @@
+/* Start Main Syle Components */
+.page-container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.page-box {
+  padding: 2rem;
+  margin-top: -1.5rem;
+}
+/* End Main Syle Components */
+/* Start Image Style */
+.image img {
+  width: 100%;
+  border-radius: 0;
+}
+/* End Image Style */
+/* Start Title Style */
+.title h2 {
+  font-size: 1.5rem;
+  color: var(--Dark-charcoal);
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+}
+.title p {
+  margin-top: 0.2rem;
+  font-size: 0.88rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+}
+/* End Title Style */
+/* Start Preparation Style */
+.preparation {
+  background-color: var(--rose-White);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.preparation h4 {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: var(--Dark-Raspberry);
+}
+.preparation ul {
+  margin-left: 2rem;
+  font-size: 0.9rem;
+  color: var(--Wenge-Brown);
+}
+.preparation ul li strong {
+  font-size: 0.95rem;
+}
+/* End Preparation Style */
+/* Start Ingredients Style */
+.ingrediants {
+  margin-top: 1rem;
+}
+.ingrediants::after {
+  position: absolute;
+  content: "";
+  border: 1px solid #f0f0f0;
+  width: 100%;
+  bottom: -1.5rem;
+}
+.ingrediants h3,
+.instructions h3,
+.nutrition h3 {
+  margin-bottom: 0.7rem;
+  font-size: 1.5rem;
+}
+/* End Ingredients Style */
+/* Start Instructions Style */
+.instructions {
+  margin-top: 3rem;
+}
+.instructions ul li span {
+  font-size: 0.88rem;
+}
+/* End Instructions Style */
+/* Start Nutition Table Style */
+.table {
+  width: 50%;
+}
+.first,
+.second,
+.second-word {
+  font-size: 0.88rem;
+}
+/* End Nutition Table Style */
